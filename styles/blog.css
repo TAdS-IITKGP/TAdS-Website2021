@@ -267,9 +267,11 @@ and (max-width : 1024px) {
    .blog-container {
     width: unset;
     margin-top: 10vh;
+
     }
     .blog-container:hover {
       box-shadow: none;
+      transform: none;
     }
    .exit-btn {
     color: #ff1d44;
@@ -287,6 +289,7 @@ and (max-width : 1024px) {
    .gallery-row {
     flex-direction: column;
    }
+
  }
 
 

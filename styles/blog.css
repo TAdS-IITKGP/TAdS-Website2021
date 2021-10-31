@@ -57,9 +57,13 @@ a {
 
 .blog-image {
   padding: 2%;
-  height: 50vh;
   width: 95%;
+  height: 50vh;
   object-fit: cover;
+}
+
+.blog-image_3 {
+  clip-path: polygon(0 0,92.5% 0,92.5% 100%,0 100%);
 }
 
 .treks-trips {
@@ -276,9 +280,12 @@ and (max-width : 1024px) {
    .exit-btn {
     color: #ff1d44;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 3px;
     margin: 2vh 0;
     background-color: rgba(0,0,0,0.1);
+   }
+   .exit-btn:hover {
+    background-color: rgba(0, 0, 0, 0.2);
    }
  } 
 
